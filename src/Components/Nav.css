@@ -1,0 +1,58 @@
+nav{
+
+    background:#273746;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid #ec8585;
+}
+.Title h3{
+    font-style: oblique;
+    font-size: 40px;
+    top: 1px;
+    z-index: 1;
+    display: none;
+    letter-spacing: 6px;
+    position: relative;
+}
+
+.Title h4{
+    position: absolute;
+    top:6px;
+    z-index: 2;
+    color: rgb(173, 171, 169);
+    letter-spacing: .5rem;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 5px;
+    text-transform: uppercase;
+    color: rgb(173, 171, 169);
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:768px){
+    .Title h4{
+        position: absolute;
+        top:6px;
+        z-index: 2;
+        color: rgb(173, 171, 169);
+        letter-spacing: 0
+    }
+}
+
+
+.App-list{
+ padding:0 4px;
+ color: rgb(173, 171, 169);
+}
+.App3{
+    margin: auto;
+    width: 800px;
+}
