@@ -44,6 +44,8 @@
    form{
        background: #314253;
        padding:8px 10px;
+       position: sticky;
+       overflow-y:scroll;
    }
    form input{
        padding: 3px 4px;
@@ -105,6 +107,16 @@
          color: black;
      }
      tr:nth-child(odd) {
-       background-color: #314253;
+       background-color: #2d3f52;
        color: #ec8585;
+     }
+     .App-header{
+         text-align: center;
+         display: flex;
+         background-color: #273746;
+         margin: 2px 4px;
+         border-radius: 5px;
+         letter-spacing:1px;
+         flex-direction: column;
+         color: #d3cfcf;
      }
