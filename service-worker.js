@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Word-Finder-App/precache-manifest.1036207660840dbe91b4bc2e8a1e9e31.js"
+  "/Word-Finder-App/precache-manifest.9850e5770ee22d04a00b5f0ee8207b9f.js"
 );
 
 self.addEventListener('message', (event) => {
